@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb);
+    background-size: 300% 300%;
+    animation: gradientBG 10s ease infinite;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23ff6b6b" d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/></svg>'), auto;
+    transition: background 1s ease;
+  }
+  
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .icon-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .icon {
+    position: absolute;
+    animation: fall linear infinite;
+    user-select: none;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-100vh) rotate(0deg);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+  
+  .floating-heart {
+    position: absolute;
+    font-size: 20px;
+    color: #ff6b6b;
+    animation: float 1s ease-out;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0) scale(1); opacity: 1; }
+    100% { transform: translateY(-100px) scale(0.5); opacity: 0; }
+  }
+  
+  .text-container {
+    text-align: center;
+    margin-top: 50px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 580px;
+    width: 90%;
+  }
+  
+  .text {
+    font-size: clamp(18px, 5vw, 24px); 
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    z-index: 1;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .love-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: clamp(16px, 4vw, 20px);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    animation: pulse 2s infinite;
+  }
+  
+  .love-button:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.1);
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  .floating-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    color: #ff6b6b;
+    display: none;
+    z-index: 1000;
+  }
+  
+  #background-audio {
+    display: none;
+  }
