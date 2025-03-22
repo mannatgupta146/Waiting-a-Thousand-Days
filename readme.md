@@ -1,6 +1,6 @@
 # Waiting a Thousand Days
 
-A heartfelt and interactive web experience to express love and longing. This project is designed to create a romantic and immersive atmosphere, perfect for special occasions like Kiss Day, anniversaries, or just to remind someone how much they mean to you.
+A heartfelt and interactive web experience designed to express love and longing. This project creates a romantic and immersive atmosphere, making every moment feel special and filled with warmth. Whether near or far, it’s a beautiful way to remind someone just how much they mean to you.
 
 ## Features
 
