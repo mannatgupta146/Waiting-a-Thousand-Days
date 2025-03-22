@@ -41,7 +41,7 @@ This project was inspired by the idea of expressing love and longing in a creati
 
 ## Background Music
 
-The background music is **"A Thousand Years" by Christina Perri**. You can replace the audio file (`A_Thousand_Years-528635.mp3`) with your own music to personalize the experience.
+The background music  is **"A Thousand Years 🎶 " by Christina Perri**. You can replace the audio file (`A_Thousand_Years-528635.mp3`) with your own music to personalize the experience.
 
 ## Customization
 
