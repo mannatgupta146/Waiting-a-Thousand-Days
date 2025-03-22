@@ -31,7 +31,7 @@ A heartfelt and interactive web experience to express love and longing. This pro
 This project was inspired by the idea of expressing love and longing in a creative and interactive way. It’s a digital love letter that combines visuals, animations, and music to convey emotions that words alone cannot fully express.
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML**: The structure of the webpage.
 - **CSS**: Styling, animations, and responsive design.
@@ -39,11 +39,11 @@ This project was inspired by the idea of expressing love and longing in a creati
 - **Canvas Confetti**: Library for the confetti effect.
 - **Google Fonts**: Roboto font for a clean and modern look.
 
-## 🎶 Background Music
+## Background Music
 
 The background music is **"A Thousand Years" by Christina Perri**. You can replace the audio file (`A_Thousand_Years-528635.mp3`) with your own music to personalize the experience.
 
-## 🎉 Customization
+## Customization
 
 Feel free to customize this project to make it your own:
 - **Change the Message**: Update the text in the `script.js` file to reflect your own feelings.
