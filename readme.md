@@ -53,5 +53,5 @@ Feel free to customize this project to make it your own:
 
 ---
 
-***For a thousand years and more.🐼🎀***
+**For a thousand years and more.🐼🎀**
 
